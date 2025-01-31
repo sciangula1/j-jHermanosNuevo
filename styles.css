@@ -1,0 +1,304 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+
+:root{
+  --bs-body-font-family: "Georama", serif !important;
+  }
+
+  h1 {
+    font-weight: 700; /* Negrita */
+  }
+
+  p {
+    font-weight: 400; /* Peso normal */
+    
+  }
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+.container-espaciado{
+
+    height: 50px;
+}
+.container-fluid a{
+    justify-items: center;
+}
+.logo img{
+    width: 80px;
+    height: 80px;
+    border-radius: 5px;
+}
+.barra {
+    background-color: rgb(31, 32, 32);
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    box-shadow: 0px 5px 11px -3px rgba(0,0,0,0.67);
+}
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+.nav-link:hover{
+    opacity: 1;
+}
+.navbar{
+    transition: top 0.3s;
+}
+
+.menu{
+  justify-content: center;
+  float: left;
+}
+
+
+ /* Estilos para los iconos en el navbar */
+ .nav-icons {
+  font-size: 1.5rem;
+  margin-right: 10px;
+  color: white;
+}
+.iconos-nav{
+  display: grid;
+  grid-template-columns:repeat(3, 1fr);
+  padding: 0;
+  margin: 0 auto;
+  justify-items: center;
+  
+}
+
+.menu a:hover {
+  color: #248c4a !important;
+}
+.presentacion{
+  display: grid;
+  grid-template-columns: repeat(auto-fit,
+  minmax(300px, 1fr));
+  gap: 10px;
+  margin: 0 auto;
+  align-items: center;
+  justify-items: center;
+}
+.presentacion img{
+  width: 450px;
+  height: 450px;
+  
+}
+.QuienesSomos{
+  text-align: left;
+}
+
+
+
+
+/* Sección "Nuestras Redes" */
+.social-section {
+  background-color: #f8f9fa;
+  padding: 10px;
+  text-align: center;
+  justify-items:center;
+  margin-top: 100px;
+}
+
+.social-icons a {
+  font-size: 100px;
+  margin: 0 15px;
+  color: #333;
+}
+.social-icons-footer a {
+  font-size: 100px;
+  margin: 0 15px;
+  color: #333;
+}
+.social-icons a :hover {
+  color: #007bff ;
+}
+
+/* Footer */
+.footer {
+  background-color: rgb(31, 32, 32);
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.footer .social-icons a {
+  font-size: 1.8rem;
+  margin: 0 10px;
+  color: white;
+}
+.footer .social-icons-footer a {
+  font-size: 1.8rem;
+  margin: 0 10px;
+  color: white;
+}
+.social-icons-footer a:hover {
+  color: #ffc107 ;
+}
+
+
+
+
+
+.titulo{
+    font-size: 20px;
+    margin-left: 5px;
+}
+.collapse{
+    font-size: 18px;
+}
+
+
+section {
+    padding: 20px;
+}
+.carousel{
+  max-width: 100%; /* Ajusta el ancho del carrusel */
+  margin: auto;
+}
+
+.carousel-inner img {
+    height: 500px; /* Altura fija para las imágenes */
+    width: 100%;
+    min-width:250px;
+    max-height: 600px;
+    object-fit: cover; /* Ajusta las imágenes dentro del contenedor */
+  }
+
+  /* Controles del carrusel siempre visibles */
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo semitransparente para mejor visibilidad */
+    border-radius: 50%; /* Bordes redondeados */
+  }
+
+  .carousel-control-prev,
+  .carousel-control-next {
+    width: 100%; /* Ajusta el tamaño del área de clic */
+  }
+
+ /* modal*/
+
+.modal-header {
+    border-bottom: none; /* Elimina el borde inferior de la cabecera */
+    padding: 0; /* Elimina el espacio interno de la cabecera */
+  }
+      /* Fondo transparente oscuro para el modal */
+.modal-backdrop {
+        background-color: rgb(0, 0, 0); /* Fondo oscuro con transparencia */
+      }
+  
+      /* Estilo para el contenido del modal */
+.modal-content {
+        background-color: #000000; /* Color oscuro para el modal */
+        border: none; /* Sin bordes */
+        border-radius: 10px; /* Bordes redondeados */
+      }
+  
+      /* Imagen centrada en el modal */
+.modal-body img {
+        border-radius: 10px; /* Bordes redondeados para la imagen */
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.616); /* Sombra para la imagen */
+      }
+  
+      /* Botón de cierre blanco */
+.btn-close {
+        filter: invert(1); /* Cambiar el color del botón de cierre a blanco */
+      }
+
+
+  /* Cartas */
+.cartas{
+  margin-top: 80px;
+}
+.container-cards{
+  
+
+  display: grid;
+  grid-template-columns: repeat(auto-fill,
+   minmax(300px, 2fr));
+  gap: 10px;
+  margin:0 auto;
+  justify-content: center;
+}
+
+.card {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+  
+
+
+.formulario{
+    text-align: center;
+    margin: auto;
+    max-width: 400px;
+    text-align: justify;
+   color: white;
+}
+.whatsapp-float {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #25d366;
+    color: white;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-decoration: none;
+    
+  }
+
+  .whatsapp-float:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.3);
+  }
+
+  .whatsapp-float i {
+    font-size: 30px;
+  }
+.padding{
+    margin-top: 10px;
+}
+
+.container-logos{
+  display: grid;
+  grid-template-columns:repeat(auto-fit,
+  minmax(300px,1fr)) !important;
+  gap: 10px;
+  max-width: 1000px;
+  margin:0 auto;
+}
+.container-logos img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+ 
+
+}
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+    height: 150px;
+}

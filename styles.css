@@ -278,6 +278,16 @@ section {
     margin-top: 10px;
 }
 
+
+#contacto a i{
+  color: red;
+  font-size: 30px;
+}
+#contacto a{
+  text-decoration: none;
+  
+}
+
 .container-logos{
   display: grid;
   grid-template-columns:repeat(auto-fit,
